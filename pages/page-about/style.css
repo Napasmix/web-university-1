@@ -273,3 +273,17 @@ svg {
    
 
 
+@media screen and (max-height: 824px)  {
+
+    .central-box {
+        margin-top: 30px;
+        height: 500px;
+
+    }
+    .wrapper {
+        top: 113px;
+    }
+    .links {
+        top: 90px;
+    }
+}

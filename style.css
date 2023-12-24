@@ -1,11 +1,11 @@
 body {
     font-family: 'Orbitron', sans-serif;
     display: flex;
-    height: 10000px;
+    height: 1200px;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     justify-content: center;
     align-content: center;
 }
@@ -171,4 +171,22 @@ svg {
     display: flex;
     padding: 5px 5px 5px 5px;
     justify-content: center;
+}
+
+
+@media screen and (max-height: 824px)  {
+
+    .central-box {
+        margin-top: 30px;
+        height: 500px;
+
+    }
+    .header-my-work {
+       
+        top: 89px;
+    }
+    .my-works {
+       
+        padding: 117px 0px 0px 0px;
+    }
 }
