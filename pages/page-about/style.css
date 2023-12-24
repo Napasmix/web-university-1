@@ -81,7 +81,7 @@ a {
 }
 
 .nav-about a {
-    padding: 20px 0px 0px 0px;
+  
     color: aliceblue;
     transition: all .1s ease-in;
 }
@@ -96,7 +96,7 @@ a {
 }
 
 .nav-more a {
-    padding: 20px 20px 0px 0px;
+   
     color: aliceblue;
     transition: all .1s ease-in;
 }
