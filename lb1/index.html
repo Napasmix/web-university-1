@@ -4,41 +4,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Heebo:wght@100&family=Orbitron&family=Oswald:wght@200&family=Roboto+Condensed:wght@100&display=swap"
+        rel="stylesheet">
+
+    <title>14x6 Таблиця</title>
+    <style>
+        body {
+            font-family: 'Anton', sans-serif;
+            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Heebo', sans-serif;
+            font-family: 'Orbitron', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 800;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(245, 245, 245);
+
+        }
+
+
+        .wrapper {
+            border-radius: 10px;
+            margin: 7% 0px 0px 0px;
+            background-color: #ffff;
+            padding: 30px 30px 30px 30px;
+            height: 60%;
+            width: 80%;
+            align-items: center;
+        }
+
+        table {
+            padding: 20px 20px 20px 20px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #d1d1d1;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        thead tr {
+            color: #ffff;
+            background-color: rgb(134, 200, 205);
+        }
+
+        tbody tr {
+            background-color: rgb(245, 245, 245);
+            height: 100px;
+        }
+
+        .grey {
+            background-color: #b2b0b0;
+        }
+
+        .green {
+            background-color: #8ada8a;
+        }
+    </style>
 </head>
 
 <body>
-    <div>
-        <form action="https://webhook.site/e8ee4d8f-3767-4eca-8a50-32d4d98aa4db" method="post">
-            <label for="username">Name:</label>
-            <input type="text" id="username" name="username" required>
-            <br><br>
-            Surname:<input type="text">
-            <br><br>
+    <div class="wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Пн</th>
+                    <th>25.12.2023</th>
+                    <th>01.01.2024</th>
+                    <th>08.01.2024</th>
+                    <th>15.01.2024</th>
+                    <th>22.01.2024</th>
+                </tr>
+            </thead>
+            <tbody>
 
-             <label for="email">Email:</label>
-            <input type="text" id="email"  required>
-            <br><br>
-            <label for="password">Password:</label>
-            <input type="password" id="Password"  required>
-            <br><br>
-            <label for="password">Again password:</label>
-            <input type="password" id="Password"  required>
-            <br><br>
+                <tr>
+                    <td>4 пара<br>13:30<br>15:05</td>
+                    <td class="grey"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
 
-            Birth date:<input type="date">
-            <br><br>
-            <select>
-                <option>Male</option>
-                <option>Female</option>
-                <option>None</option>
-            </select>
-            <br><br>
-            <input type="submit">
-        </form>
+
+
+            </tbody>
+            <thead>
+                <tr>
+                    <th>Вт</th>
+                    <th>26.12.2023</th>
+                    <th>02.01.2024</th>
+                    <th>09.01.2024</th>
+                    <th>16.01.2024</th>
+                    <th>23.01.2024</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>1 пара<br>08:00<br>09:35</td>
+                    <td class="grey"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+
+            </tbody>
+            <thead>
+                <tr>
+                    <th>Ср</th>
+                    <th>27.12.2023</th>
+                    <th>03.01.2024</th>
+                    <th>09.01.2024</th>
+                    <th>16.01.2024</th>
+                    <th>24.01.2024</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>4 пара<br>13:30<br>15:05</td>
+                    <td class="green">ЗВВБ-2017[Зач]<br> ауд.Дистанц<br>Чатченко О.Є.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+
+            </tbody>
+            <thead>
+                <tr>
+                    <th>Чт</th>
+                    <th>28.12.2023</th>
+                    <th>04.01.2024</th>
+                    <th>11.01.2024</th>
+                    <th>18.01.2024</th>
+                    <th >25.01.2024</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>3 пара<br>11:45<br>13:20</td>
+                    <td class="green">WEB тех.-2016[Зач]<br>ауд.130К<br>Гордієнко К.О.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="grey"></td>
+                </tr>
+                <thead>
+                    <tr>
+                        <th>Пт</th>
+                        <th>29.12.2023</th>
+                        <th>05.01.2024</th>
+                        <th>12.01.2024</th>
+                        <th>19.01.2024</th>
+                        <th >26.01.2024</th>
+                    </tr>
+                </thead>
+            <tbody>
+
+                <tr>
+                    <td>1 пара<br>08:00<br>09:35</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="grey"></td>
+                </tr>
+                <thead>
+                    <tr>
+                        <th>Сб</th>
+                        <th>30.12.2023</th>
+                        <th>06.01.2024</th>
+                        <th>13.01.2024</th>
+                        <th>20.01.2024</th>
+                        <th >27.01.2024</th>
+                    </tr>
+                </thead>
+            <tbody>
+
+                <tr>
+                    <td>1 пара<br>08:00<br>09:35</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="grey"></td>
+                </tr>
+                <thead>
+                    <tr>
+                        <th>Нд</th>
+                        <th>31.12.2023</th>
+                        <th>07.01.2024</th>
+                        <th>14.01.2024</th>
+                        <th>21.01.2024</th>
+                        <th>28.01.2024</th>
+                    </tr>
+                </thead>
+            <tbody>
+
+                <tr>
+                    <td>1 пара<br>08:00<br>09:35</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="grey"></td>
+                </tr>
+
+
+
+            </tbody>
+        </table>
     </div>
-
-
 </body>
 
 </html>

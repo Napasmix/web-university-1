@@ -183,7 +183,7 @@ svg {
 .wrapper {
 
     position: relative;
-    top: 113px;
+    top: 103px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -298,7 +298,6 @@ input:focus {
 
 .reg a:hover {
     text-decoration: underline;
-    color: rgba(236, 237, 240, 0.89);
 }
 
 
@@ -380,7 +379,7 @@ input:focus {
     }
 
     .wrapper {
-        top: 113px;
+        top: 14px;
     }
 
 }
