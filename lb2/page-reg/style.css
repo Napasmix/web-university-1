@@ -183,7 +183,7 @@ svg {
 .wrapper {
 
     position: relative;
-    top: 158px;
+    top: 113px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -209,14 +209,16 @@ svg {
 input:focus {
     outline: none;
 }
-.sing-logo{
+
+.reg-logo {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   color: #e7e7ed;
-   padding-left: 10px;
-   padding-bottom: 20px;
+    color: #e7e7ed;
+    padding-left: 10px;
+    padding-bottom: 20px;
 
 
 }
+
 .log {
     background-color: #040424;
     color: white;
@@ -263,7 +265,7 @@ input:focus {
 }
 
 .sing {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .sub {
@@ -275,10 +277,7 @@ input:focus {
     background-color: #e7e7ed;
     font-weight: 800;
     font-size: 15px;
-    transition: all .15s ease-in-out;
 }
-
-
 .sub:hover {
     color: rgba(227, 230, 243, 0.582);
     background-color: rgba(77, 49, 238, 0.582);
@@ -286,6 +285,7 @@ input:focus {
 
 .reg {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 
 
 }
@@ -300,6 +300,7 @@ input:focus {
     text-decoration: underline;
     color: rgba(236, 237, 240, 0.89);
 }
+
 
 
 @keyframes gradientAnimation {
